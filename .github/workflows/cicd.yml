@@ -35,4 +35,4 @@ jobs:
         app-name: 'app-thawatcd-az-asse-sbx-001'
         slot-name: 'Production'
         publish-profile: ${{ secrets.publishprofile}}
-        package:  ${{ github.workspace }}/target/${{ env.WAR_NAME }}
+        package:  ${{ github.workspace }}/target/${{ env.ARTIFACT_NAME }}
