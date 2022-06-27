@@ -2,7 +2,7 @@ name: CICD
 on:
   workflow_dispatch:
 env:
-  ARTIFACT_NAME: "fbb_workflow_external-service-0.0.1-snapshot"
+  ARTIFACT_NAME: "workflowwsdl-0.0.1-SNAPSHOT.war"
   WAR_NAME: "airnet-service.war"
 
 jobs:
